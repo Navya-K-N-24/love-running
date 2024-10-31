@@ -13,10 +13,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project style */
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }   
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -81,12 +82,18 @@ nav {
     font-size: 2rem;
 }
 
-/* Main Content */
-main {
-    background-color: lightblue;
-    /* make main element take up any surplus space to push footer down */
+/* Main content */
+main {    
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
